@@ -7,6 +7,4 @@ browser.tabs.onUpdated.addListener((tabId, changeInfo, tabInfo) => {
     file: "custom-style.css"
   });
   displayFullContent.then(null, onError);
-}, {
-  urls: ["*://va.news-republic.com/*"]
 });
