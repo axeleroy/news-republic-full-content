@@ -1,0 +1,7 @@
+.editor-container {
+  height: auto !important;
+}
+
+.more, .share-section, .recommend-container, .recommend-section, .footer-container {
+  display: none !important;
+}
